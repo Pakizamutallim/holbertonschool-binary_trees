@@ -22,3 +22,10 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	return (0);
 }
 
+/**
+ * binary_tree_leaves - Counts the leaves in a binary tree.
+ *
+ * @tree: Pointer to the root node of the tree.
+ *
+ * Return: Number of leaves, if tree is NULL returns 0.
+ */
